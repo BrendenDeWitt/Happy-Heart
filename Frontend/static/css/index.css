@@ -113,7 +113,7 @@ a {
     background: #ffffff;
 }
 
-.share_button{
+.display_button{
     width: 300px;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
@@ -142,4 +142,44 @@ td{
     text-align: center;
     border: 1px solid;
     border-collapse: collapse;
+}
+
+/*CSS for Images on Records Page*/
+
+#facebook_icon {
+	width: 100px;
+	height: 100px;
+	border: none;
+	background-image: url(../js/views/face.png);
+	background-size: 100px;
+}
+
+#gmail_icon {
+	width: 100px;
+	height: 100px;
+	border: none;
+	background-image: url(../js/views/gmail.png);
+	background-size: 115px;
+}
+
+#office365_icon {
+	width: 100px;
+	height: 100px;
+	border: none;
+	background-image: url(../js/views/office365.jpg);
+	background-size: 100px;
+}
+
+/*CSS for Settings Page*/
+
+.settings_button{
+    width: 50%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 100px;
 }
